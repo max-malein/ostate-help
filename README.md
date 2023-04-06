@@ -2,7 +2,7 @@
 
 | 01. Settings | 02. Pattern | 03. Building | 04. Layout | 05. Details | 06. Post Processing | 07. Utility |
 | --- | --- | --- | --- | --- | --- | --- |
-| [![](img/ApartmentSettings-Tower.png)](#apartment-settings--tower) [![](img/BoundarySettings.png)](#boundary-settings) [![](img/BoundarySettings-Corner.png)](#boundary-settings--corner) [![](img/CoreInteriorSettings.png)](#core-interior-settings) [![](img/CoreSettings.png)](#core-settings) [![](img/CorridorSettings.png)](#corridor-settings) [![](img/CoreSettings-Double.png)](#core-settings--double) [![](img/FloorSettings.png)](#floor-settings) [![](img/StructureSettings.png)](#structure-settings) | [![](img/MakeDuplex.png)](#make-duplex) [![](img/MakeHandmade.png)](#make-handmade) [![](img/MakeLinear.png)](#make-linear) [![](img/MakeTower.png)](#maketower) [![](img/PatternLibrary.png)](#pattern-library) [![](img/PatternSettings.png)](#pattern-settings) | [![](img/MergeBuildings.png)](#mergebuildings) [![](img/SolveBuildingAdjacency.png)](#solve-building-adjacency) | [![](img/BalconyType.png)](#balcony-type) [![](img/GenerateLayout.png)](#generate-layout) [![](img/GrowOnCells.png)](#grow-on-cells) [![](img/OneCellOneSpace.png)](#one-cell-one-space) [![](img/SpaceType.png)](#space-type) | [![](img/AddWindows.png)](#add-windows) [![](img/AddWallsThickness.png)](#add-walls-thickness) [![](img/WallIntersectionSettings.png)](#wall-intersection-settings) [![](img/WallThicknessSettings.png)](#wall-thickness-settings) | [![](img/ExportData.png)](#export-data) [![](img/ExportHoneybee.png)](#export-honeybee) [![](img/ExportIFC.png)](#export-ifc) [![](img/AreaColoredRange.png)](#area-colored-range) [![](img/ExportFloorplan.png)](#export-floorplan) [![](img/ExportFloorplan-2D.png)](#export-floorplan--2d) [![](img/FloorplanColorSettings.png)](#floorplan-color-settings) [![](img/FloorplanTextSettings.png)](#floorplan-text-settings) | [![](img/Arrange.png)](#arrange) [![](img/OstateDefaults.png)](#ostate-defaults) [![](img/Rename.png)](#rename) [![](img/CreateStructuralLines.png)](#create-structural-lines) [![](img/UFAEstimator.png)](#ufa-estimator) [![](img/FloorplanValidator.png)](#floorplan-validator) [![](img/FloorplanValidatorOstate.png)](#floorplan-validator-ostate) |
+| [![](img/ApartmentSettings-Tower.png)](#-apartment-settings--tower) [![](img/BoundarySettings.png)](#boundary-settings) [![](img/BoundarySettings-Corner.png)](#boundary-settings--corner) [![](img/CoreInteriorSettings.png)](#core-interior-settings) [![](img/CoreSettings.png)](#core-settings) [![](img/CorridorSettings.png)](#corridor-settings) [![](img/CoreSettings-Double.png)](#core-settings--double) [![](img/FloorSettings.png)](#floor-settings) [![](img/StructureSettings.png)](#structure-settings) | [![](img/MakeDuplex.png)](#make-duplex) [![](img/MakeHandmade.png)](#make-handmade) [![](img/MakeLinear.png)](#make-linear) [![](img/MakeTower.png)](#maketower) [![](img/PatternLibrary.png)](#pattern-library) [![](img/PatternSettings.png)](#pattern-settings) | [![](img/MergeBuildings.png)](#mergebuildings) [![](img/SolveBuildingAdjacency.png)](#solve-building-adjacency) | [![](img/BalconyType.png)](#balcony-type) [![](img/GenerateLayout.png)](#generate-layout) [![](img/GrowOnCells.png)](#grow-on-cells) [![](img/OneCellOneSpace.png)](#one-cell-one-space) [![](img/SpaceType.png)](#space-type) | [![](img/AddWindows.png)](#add-windows) [![](img/AddWallsThickness.png)](#add-walls-thickness) [![](img/WallIntersectionSettings.png)](#wall-intersection-settings) [![](img/WallThicknessSettings.png)](#wall-thickness-settings) | [![](img/ExportData.png)](#export-data) [![](img/ExportHoneybee.png)](#export-honeybee) [![](img/ExportIFC.png)](#export-ifc) [![](img/AreaColoredRange.png)](#area-colored-range) [![](img/ExportFloorplan.png)](#export-floorplan) [![](img/ExportFloorplan-2D.png)](#export-floorplan--2d) [![](img/FloorplanColorSettings.png)](#floorplan-color-settings) [![](img/FloorplanTextSettings.png)](#floorplan-text-settings) | [![](img/Arrange.png)](#arrange) [![](img/OstateDefaults.png)](#ostate-defaults) [![](img/Rename.png)](#rename) [![](img/CreateStructuralLines.png)](#create-structural-lines) [![](img/UFAEstimator.png)](#ufa-estimator) [![](img/FloorplanValidator.png)](#floorplan-validator) [![](img/FloorplanValidatorOstate.png)](#floorplan-validator-ostate) |
 
 # 01. Settings
 ## ![](img/ApartmentSettings-Tower.png) Apartment Settings | Tower
@@ -16,10 +16,12 @@
 | Apartments Amount | Ap Amount | The number of apartments per floor. |
 | Respectable Distance | rDistance | The distance from the short facade to the first apartment's separating wall. |
 | SpaceTypes | sTypes | List of space types.<br>_____________<br>This list is filling the spaces by types in a quick abstract method as follows:_______________<br>- 1 Space Type          ------> all spaces are same type.<br>- 2 Space Types provided and pattern has 4 different cells' areas >> then the spaces are divided into:<br>        ------> First smallest 2 cells areas are the first space type <br>        ------> The second type is assigned to the other 2 cells areas |
+
 ### Output
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | ApartmentSettings | ApSett | Settings for the apartments of the tower pattern. |
+
 ## ![](img/BoundarySettings.png) Boundary Settings
 **Name:** Boundary Settings  
 **NickName:** Boundary  
@@ -30,10 +32,12 @@
 | ------ | ------ | ------ |
 | Depth | Depth | Perpendicular distance from facade outer edge to the corridor wall on one side of the building. |
 | Depth 2 | Depth 2 | Second Perpendicular distance from facade outer edge to the corridor wall on the other side of the building. |
+
 ### Output
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | BoundarySettings | bouSett | Settings for the outline of the pattern. |
+
 ## ![](img/BoundarySettings-Corner.png) Boundary Settings | Corner
 **Name:** Boundary Settings | Corner  
 **NickName:** Boundary|Corner  
