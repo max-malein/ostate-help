@@ -11,6 +11,7 @@
 **Description:** Setting the apartments properties for the tower patterns to generate.  
 
 ### Input
+
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Apartments Amount | Ap Amount | The number of apartments per floor. |
@@ -18,6 +19,7 @@
 | SpaceTypes | sTypes | List of space types.<br>_____________<br>This list is filling the spaces by types in a quick abstract method as follows:_______________<br>- 1 Space Type          ------> all spaces are same type.<br>- 2 Space Types provided and pattern has 4 different cells' areas >> then the spaces are divided into:<br>        ------> First smallest 2 cells areas are the first space type <br>        ------> The second type is assigned to the other 2 cells areas |
 
 ### Output
+
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | ApartmentSettings | ApSett | Settings for the apartments of the tower pattern. |
@@ -28,12 +30,14 @@
 **Description:** Setting the outline/boundary dimensions of the pattern  
 
 ### Input
+
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Depth | Depth | Perpendicular distance from facade outer edge to the corridor wall on one side of the building. |
 | Depth 2 | Depth 2 | Second Perpendicular distance from facade outer edge to the corridor wall on the other side of the building. |
 
 ### Output
+
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | BoundarySettings | bouSett | Settings for the outline of the pattern. |
