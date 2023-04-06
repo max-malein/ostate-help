@@ -1,5 +1,8 @@
+| 01. Settings | 02. Pattern | 03. Building | 04. Layout | 05. Details | 06. Post Processing | 07. Utility |
+| --- | --- | --- | --- | --- | --- | --- |
+| [![](img/ApartmentSettings-Tower.png)](#apartment-settings--tower) [![](img/BoundarySettings.png)](#boundary-settings) [![](img/BoundarySettings-Corner.png)](#boundary-settings--corner) [![](img/CoreInteriorSettings.png)](#core-interior-settings) [![](img/CoreSettings.png)](#core-settings) [![](img/CorridorSettings.png)](#corridor-settings) [![](img/CoreSettings-Double.png)](#core-settings--double) [![](img/FloorSettings.png)](#floor-settings) [![](img/StructureSettings.png)](#structure-settings) | [![](img/MakeDuplex.png)](#make-duplex) [![](img/MakeHandmade.png)](#make-handmade) [![](img/MakeLinear.png)](#make-linear) [![](img/MakeTower.png)](#maketower) [![](img/PatternLibrary.png)](#pattern-library) [![](img/PatternSettings.png)](#pattern-settings) | [![](img/MergeBuildings.png)](#mergebuildings) [![](img/SolveBuildingAdjacency.png)](#solve-building-adjacency) | [![](img/BalconyType.png)](#balcony-type) [![](img/GenerateLayout.png)](#generate-layout) [![](img/GrowOnCells.png)](#grow-on-cells) [![](img/OneCellOneSpace.png)](#one-cell-one-space) [![](img/SpaceType.png)](#space-type) | [![](img/AddWindows.png)](#add-windows) [![](img/AddWallsThickness.png)](#add-walls-thickness) [![](img/WallIntersectionSettings.png)](#wall-intersection-settings) [![](img/WallThicknessSettings.png)](#wall-thickness-settings) | [![](img/ExportData.png)](#export-data) [![](img/ExportHoneybee.png)](#export-honeybee) [![](img/ExportIFC.png)](#export-ifc) [![](img/AreaColoredRange.png)](#area-colored-range) [![](img/ExportFloorplan.png)](#export-floorplan) [![](img/ExportFloorplan-2D.png)](#export-floorplan--2d) [![](img/FloorplanColorSettings.png)](#floorplan-color-settings) [![](img/FloorplanTextSettings.png)](#floorplan-text-settings) | [![](img/Arrange.png)](#arrange) [![](img/OstateDefaults.png)](#ostate-defaults) [![](img/Rename.png)](#rename) [![](img/CreateStructuralLines.png)](#create-structural-lines) [![](img/UFAEstimator.png)](#ufa-estimator) [![](img/FloorplanValidator.png)](#floorplan-validator) [![](img/FloorplanValidatorOstate.png)](#floorplan-validator-ostate) |
 # 01. Settings
-## Apartment Settings | Tower ![](img/ApartmentSettings-Tower.png)
+## ![](img/ApartmentSettings-Tower.png) Apartment Settings | Tower
 **Name:** Apartment Settings | Tower  
 **NickName:** Apartments|Tower  
 **Description:** Setting the apartments properties for the tower patterns to generate.  
@@ -14,7 +17,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | ApartmentSettings | ApSett | Settings for the apartments of the tower pattern. |
-## Boundary Settings ![](img/BoundarySettings.png)
+## ![](img/BoundarySettings.png) Boundary Settings
 **Name:** Boundary Settings  
 **NickName:** Boundary  
 **Description:** Setting the outline/boundary dimensions of the pattern  
@@ -28,7 +31,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | BoundarySettings | bouSett | Settings for the outline of the pattern. |
-## Boundary Settings | Corner ![](img/BoundarySettings-Corner.png)
+## ![](img/BoundarySettings-Corner.png) Boundary Settings | Corner
 **Name:** Boundary Settings | Corner  
 **NickName:** Boundary|Corner  
 **Description:** Sets the boundary dimensions of the concave and the convex parts of the corner patterns.<br>- Use this only for the corner patterns  
@@ -45,7 +48,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | BoundarySettings | bouSett | Settings for the outline of the pattern. |
-## Core Interior Settings ![](img/CoreInteriorSettings.png)
+## ![](img/CoreInteriorSettings.png) Core Interior Settings
 **Name:** Core Interior Settings  
 **NickName:** Core Interior  
 **Description:** Setting the draftdesign of cores for the pattern.<br>- This could be a core detailed design meshes and curves.<br>- It is meant only for visualization purposes and not smart enough to fit and adjust it to your core dimensions.  
@@ -60,7 +63,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Core Interior Settings | IntSett | Settings for the Interior design of the pattern's core. |
-## Core Settings ![](img/CoreSettings.png)
+## ![](img/CoreSettings.png) Core Settings
 **Name:** Core Settings  
 **NickName:** Core  
 **Description:** Setting the core properties and dimensions for the pattern  
@@ -77,7 +80,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Core Settings | coSett | Settings for the core of the pattern. |
-## Corridor Settings ![](img/CorridorSettings.png)
+## ![](img/CorridorSettings.png) Corridor Settings
 **Name:** Corridor Settings  
 **NickName:** Corridor  
 **Description:** Setting the corridor properties and dimensions for the pattern  
@@ -93,7 +96,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | CorridorSettings | CoSett | Settings for the corridor of the pattern. |
-## Core Settings | Double ![](img/CoreSettings-Double.png)
+## ![](img/CoreSettings-Double.png) Core Settings | Double
 **Name:** Core Settings | Double  
 **NickName:** Double Core  
 **Description:** Setting the double core properties and dimensions for the pattern.<br>To have double cores each on one side of the corridor.  
@@ -112,7 +115,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | DoubleCoreSettings | doubSett | Settings for the double core of the pattern. |
-## Floor Settings ![](img/FloorSettings.png)
+## ![](img/FloorSettings.png) Floor Settings
 **Name:** Floor Settings  
 **NickName:** FloorSet  
 **Description:** Setting the Floors properties and dimensions for the building block.  
@@ -129,7 +132,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | FloorSettings | fSett | Settings for the Floors of the builidng block. |
-## Structure Settings ![](img/StructureSettings.png)
+## ![](img/StructureSettings.png) Structure Settings
 **Name:** Structure Settings  
 **NickName:** Structure  
 **Description:** Setting the structure cells properties for the pattern  
@@ -147,7 +150,7 @@
 | ------ | ------ | ------ |
 | StructureSettings | strSett | Settings for the Structure cells of the pattern. |
 # 02. Pattern
-## Make Duplex ![](img/MakeDuplex.png)
+## ![](img/MakeDuplex.png) Make Duplex
 **Name:** Make Duplex  
 **NickName:** Duplex  
 **Description:** Create Row houses, penthouses or any duplex spaces. These are spaces that have multiple floors belonging to one entitiy/space.<br>The output will be only your base floor<br>Plug this into 'Make Building Block' to define the floor settings.  
@@ -163,7 +166,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Building | Building | Building made out of the custom pattern<br>your building out of this pattern can be used right away into any ostate operations as a building. i.e. walls generation..etc |
-## Make Handmade ![](img/MakeHandmade.png)
+## ![](img/MakeHandmade.png) Make Handmade
 **Name:** Make Handmade  
 **NickName:** Handmade  
 **Description:** Create pattern building from cells/spaces boundaries<br>Note:If your curves/Spaces are not forming one block/ touching then your areas calculations from Ostate won't be correct.<br>Instead make a separate pattern for each separate block of spaces, Makes sense right?  
@@ -181,7 +184,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Building | Building | Building made out of the custom pattern<br>your building out of this pattern can be used right away into any ostate operations as a building. i.e. walls generation..etc |
-## Make Linear ![](img/MakeLinear.png)
+## ![](img/MakeLinear.png) Make Linear
 **Name:** Make Linear  
 **NickName:** Linear  
 **Description:** 1- Parses the input curve to decide the amount of Ends, Corners and Middle patterns required as an input.<br>2- Register the Settings input of the Patterns.<br>3- Create patterns and generate their geometry  
@@ -194,7 +197,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Buildings | Buildings | Buildings to merge into one if needed |
-## MakeTower ![](img/MakeTower.png)
+## ![](img/MakeTower.png) MakeTower
 **Name:** MakeTower  
 **NickName:** Tower  
 **Description:** Creat a tower building pattern from a tower algorithm  
@@ -208,7 +211,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Building | Building | Building from the tower pattern.<br>- You could use it right away to generate walls or windows or layout. depending on your goal. |
-## Pattern Library ![](img/PatternLibrary.png)
+## ![](img/PatternLibrary.png) Pattern Library
 **Name:** Pattern Library  
 **NickName:** Algo Library  
 **Description:** Library with all Pattern Algorithms<br>Click the button to open the library in your default browser and check their design possibilities.  
@@ -217,7 +220,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Algorithms | Algos | All Ostate Pattern Algorithms |
-## Pattern Settings ![](img/PatternSettings.png)
+## ![](img/PatternSettings.png) Pattern Settings
 **Name:** Pattern Settings  
 **NickName:** PSett  
 **Description:** All settings that would decide the pattern properties and design  
@@ -232,7 +235,7 @@
 | ------ | ------ | ------ |
 | PatternSettings | pSett | Compiled Settings for any 'PatternSettings' input. |
 # 03. Building
-## MergeBuildings ![](img/MergeBuildings.png)
+## ![](img/MergeBuildings.png) MergeBuildings
 **Name:** MergeBuildings  
 **NickName:** Merge  
 **Description:** Make a building out of all the Patterns or Buildings. This will consider the adjacency of all patterns. Facades and corridors will be merged if possible.  
@@ -247,7 +250,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Building | Building | Patterns or Buildings merged into one building |
-## Solve Building Adjacency ![](img/SolveBuildingAdjacency.png)
+## ![](img/SolveBuildingAdjacency.png) Solve Building Adjacency
 **Name:** Solve Building Adjacency  
 **NickName:** Solve Adjacency  
 **Description:** Find the adjacency between contextual masses, as breps, and an Ostate building.  
@@ -263,7 +266,7 @@
 | ------ | ------ | ------ |
 | Buildings | Buildings | Building with contextual adjacency solved |
 # 04. Layout
-## Balcony Type ![](img/BalconyType.png)
+## ![](img/BalconyType.png) Balcony Type
 **Name:** Balcony Type  
 **NickName:** Balcony  
 **Description:** Balcony to add to the space type  
@@ -280,7 +283,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | SpaceType | Type | Space type after balcony options are added to it |
-## Generate Layout ![](img/GenerateLayout.png)
+## ![](img/GenerateLayout.png) Generate Layout
 **Name:** Generate Layout  
 **NickName:** Layout  
 **Description:** Generates floorplan layout on an Ostate building.<br>Adds Spaces based on spacetypes and their program.  
@@ -301,7 +304,7 @@
 | ------ | ------ | ------ |
 | Buildings | Bldgs | Buildings with layout spaces generated |
 | LayoutSummary | Summary | Numerical data summary for the best option based on the iteration scoring preference. |
-## Grow On Cells ![](img/GrowOnCells.png)
+## ![](img/GrowOnCells.png) Grow On Cells
 **Name:** Grow On Cells  
 **NickName:** Grow Algo  
 **Description:** Layout generation algorithm: Each cell will be tested to fit a space of a certain type.<br>Otherwise it will be merged with the neighbouring cells until it matches the requirements for a certain space type.  
@@ -319,7 +322,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | GrowOnCells | Algo | Layout generator algorithm |
-## One Cell One Space ![](img/OneCellOneSpace.png)
+## ![](img/OneCellOneSpace.png) One Cell One Space
 **Name:** One Cell One Space  
 **NickName:** OneOne  
 **Description:** Layout generation algorithm: Each Cell will be considered as a one separate Space.  
@@ -337,7 +340,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | OneCellOneSpace | Algo | Layout generator algorithm. |
-## Space Type ![](img/SpaceType.png)
+## ![](img/SpaceType.png) Space Type
 **Name:** Space Type  
 **NickName:** SpaceType  
 **Description:** Define a space type  
@@ -360,7 +363,7 @@
 | ------ | ------ | ------ |
 | SpaceType | Type | Space type object |
 # 05. Details
-## Add Windows ![](img/AddWindows.png)
+## ![](img/AddWindows.png) Add Windows
 **Name:** Add Windows  
 **NickName:** AddWindows  
 **Description:** Add/Place windows on Building's spaces  
@@ -376,7 +379,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Building | Building | Building with windows generated on each space |
-## Add Walls Thickness ![](img/AddWallsThickness.png)
+## ![](img/AddWallsThickness.png) Add Walls Thickness
 **Name:** Add Walls Thickness  
 **NickName:** AddWallsThickness  
 **Description:** Add/Generate walls on floors. This Component also Finds UFA (UsableFloorArea) Boundary and registers its areas to each space.  
@@ -391,7 +394,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Building | Builidng | Building presented |
-## Wall Intersection Settings ![](img/WallIntersectionSettings.png)
+## ![](img/WallIntersectionSettings.png) Wall Intersection Settings
 **Name:** Wall Intersection Settings  
 **NickName:** Wall Intersection  
 **Description:** Specify the priority order for the wall intersections.  
@@ -409,7 +412,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | WallIntersectionSettings | iSett | Intersection Priority settings for the 'Add Walls Thickness' component |
-## Wall Thickness Settings ![](img/WallThicknessSettings.png)
+## ![](img/WallThicknessSettings.png) Wall Thickness Settings
 **Name:** Wall Thickness Settings  
 **NickName:** WallThickness  
 **Description:** Set the thickness of the walls per type  
@@ -429,7 +432,7 @@
 | ------ | ------ | ------ |
 | WallThicknessSettings | Thicknes | thickness defined per wall type |
 # 06. Post Processing
-## Export Data ![](img/ExportData.png)
+## ![](img/ExportData.png) Export Data
 **Name:** Export Data  
 **NickName:** Export Data  
 **Description:** Exports all the Numerical data available related to Ostate buildings  
@@ -446,7 +449,7 @@
 | Raw Data | Raw | Raw data of the variant that has no relation or dependencey on any other data. |
 | Processed data | Processed | Processed data of the variant. all Data are rounded according to the Norms and regulations advice (if it exist) |
 | Raw Data JSon | Raw Json | Serialized JSON that can be an input to the 'DesignScout Tools' to present on our Hub.OMRT.tech patform |
-## Export Honeybee ![](img/ExportHoneybee.png)
+## ![](img/ExportHoneybee.png) Export Honeybee
 **Name:** Export Honeybee  
 **NickName:** To HB  
 **Description:** Exports Ostate spaces and windows into Geometry to be used in HoneyBee.  
@@ -464,7 +467,7 @@
 | Windows | W | Geometry of the windows |
 | Cores | Cores | Geometry of the Cores |
 | Corridors | Co | Geometry of the Corridors.<br>If Gallery it will be a surface not extruded, this could be used as a shading surface |
-## Export IFC ![](img/ExportIFC.png)
+## ![](img/ExportIFC.png) Export IFC
 **Name:** Export IFC  
 **NickName:** To IFC  
 **Description:** Exports Ostate building data into an IFC file.  
@@ -480,7 +483,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Output | Output | Output |
-## Area Colored Range ![](img/AreaColoredRange.png)
+## ![](img/AreaColoredRange.png) Area Colored Range
 **Name:** Area Colored Range  
 **NickName:** AreaColor  
 **Description:** An interval with a color assigned  
@@ -495,7 +498,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Area Colored Range | Range | Area range with an assosiated color |
-## Export Floorplan ![](img/ExportFloorplan.png)
+## ![](img/ExportFloorplan.png) Export Floorplan
 **Name:** Export Floorplan  
 **NickName:** FPlan  
 **Description:** Get colored floorplan mesh  
@@ -514,7 +517,7 @@
 | Preview mesh | Mesh | Mesh of the floors |
 | Extrusions Wireframes | Wireframes | if the extrusion parameter is selected then the extrusions of the spaces breps are returned here joined |
 | Text Data | Text | Text data to be exploded |
-## Export Floorplan | 2D ![](img/ExportFloorplan-2D.png)
+## ![](img/ExportFloorplan-2D.png) Export Floorplan | 2D
 **Name:** Export Floorplan | 2D  
 **NickName:** PlotFP  
 **Description:** Orient floor layouts on the plot and assign colors to spaces  
@@ -534,7 +537,7 @@
 | Preview mesh | Mesh | Mesh of the floors |
 | Vectors | Vec | List of Translation Vectors for each floor |
 | Text Data | Text | Text data to be exploded |
-## Floorplan Color Settings ![](img/FloorplanColorSettings.png)
+## ![](img/FloorplanColorSettings.png) Floorplan Color Settings
 **Name:** Floorplan Color Settings  
 **NickName:** FPColor  
 **Description:** Color settings for the floorplan component  
@@ -552,7 +555,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Floorplan Color Settings | Settings | Color settings for the floor plan component |
-## Floorplan Text Settings ![](img/FloorplanTextSettings.png)
+## ![](img/FloorplanTextSettings.png) Floorplan Text Settings
 **Name:** Floorplan Text Settings  
 **NickName:** FPText  
 **Description:** Text settings for the floorplan component  
@@ -569,7 +572,7 @@
 | ------ | ------ | ------ |
 | FloorplanTextSettings | TextSettings | Additional text settings for the floorplan exporting components |
 # 07. Utility
-## Arrange ![](img/Arrange.png)
+## ![](img/Arrange.png) Arrange
 **Name:** Arrange  
 **NickName:** Arrange  
 **Description:** Arrange geometry or ostate objects on a grid.  
@@ -585,7 +588,7 @@
 | ------ | ------ | ------ |
 | Geometry | Geo | Translated input geometry |
 | TranslationVectors | Vec | Translation vector for each valid geometry |
-## Ostate Defaults ![](img/OstateDefaults.png)
+## ![](img/OstateDefaults.png) Ostate Defaults
 **Name:** Ostate Defaults  
 **NickName:** ODefaults  
 **Description:** Default values that are used in Ostate's backend and can be overriden.  
@@ -600,7 +603,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Ostate Defaults | ODefaults | All Ostate defaults within the specified type. |
-## Rename ![](img/Rename.png)
+## ![](img/Rename.png) Rename
 **Name:** Rename  
 **NickName:** Rename  
 **Description:** Rename an ostate object.  
@@ -614,7 +617,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Object | Obj | Renamed object |
-## Create Structural Lines ![](img/CreateStructuralLines.png)
+## ![](img/CreateStructuralLines.png) Create Structural Lines
 **Name:** Create Structural Lines  
 **NickName:** Structural Lines  
 **Description:** Construct lines dividing a curve. This is controlable on both sides of the curve.  
@@ -635,7 +638,7 @@
 | Grid Lines | Lines | Structural Grid lines |
 | Points | Pts | Points subdividing the curve |
 | Adjusted Curve | Adj Curve | Curve Adjusted based on the tolerance. |
-## UFA Estimator ![](img/UFAEstimator.png)
+## ![](img/UFAEstimator.png) UFA Estimator
 **Name:** UFA Estimator  
 **NickName:** UFA  
 **Description:** this component helps you to estimate the UFA area based on the Span, depth and walls thickness to use for a space.<br>Use the same wall thickness you input here into your AddWallsThickness component.  
@@ -655,7 +658,7 @@
 | Depth | depth | Depth of the space.<br>This is the Gross depth. From the facade external edge to the corridor edge.<br>Don't think of any walls thickness here. |
 | Span | span | Span of the space.<br>This is the Gross span. From the midline of the interior wall to the other side's midline interior wall.<br>Don't think of any walls thickness here. |
 | UFA | UFA | UFA area of the space.<br>This is the net UFA Area. UFA = Usable Floor Area of the space |
-## Floorplan Validator ![](img/FloorplanValidator.png)
+## ![](img/FloorplanValidator.png) Floorplan Validator
 **Name:** Floorplan Validator  
 **NickName:** Validator  
 **Description:** Validates the floorplan  
@@ -673,7 +676,7 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Results | Results | Results object<br>This contains the apartments and corridor result objects as well<br>use the explode component from the ostate utilities to get all the data |
-## Floorplan Validator Ostate ![](img/FloorplanValidatorOstate.png)
+## ![](img/FloorplanValidatorOstate.png) Floorplan Validator Ostate
 **Name:** Floorplan Validator Ostate  
 **NickName:** ValidateOstate  
 **Description:** Validates the floorplans of Ostate Buildings  
@@ -688,40 +691,3 @@
 | ------ | ------ | ------ |
 | Building Results | BuildingRes | list of floor Results object for all the building's floors.<br>This contains the apartments and corridor result objects as well<br>use the explode component from the ostate utilities to get all the data |
 | Floors Results | FloorsRes | list of floor Results object for all separate inputed floors.<br>This contains the apartments and corridor result objects as well<br>use the explode component from the ostate utilities to get all the data |
-# 09. Hidden
-## Deserialize Core ![](img/DeserializeCore.png)
-**Name:** Deserialize Core  
-**NickName:** DeCore  
-**Description:** Convert Cores Json back to their geometries  
-
-### Input
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| File Name | fName | Core name to find |
-### Output
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Vertical Circulation | vCirc | A list of target vertical circualtion as lifts and stairs curves |
-| Horizontal Circulation | hCirc | A list of corridor curves for cores |
-| Design Meshes | dMesh | A list of target meshes you serialized with your core curves. i.e walls or hatches |
-| Smoke Area Mesh | sMesh | List of the meshes placed when the core is placed in a certain condition that requires a smoke area "RockSluis" in dutch |
-| Smoke Area Curves | sCrv | List of the curves placed when the core is placed in a certain condition that requires a smoke area "RockSluis" in dutch |
-## Serialize Core ![](img/SerializeCore.png)
-**Name:** Serialize Core  
-**NickName:** SerCore  
-**Description:** Convert Cores into Json  
-
-### Input
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Vertical Circulation | vCirc | A list of target vertical circualtion as lifts and stairs curves you would like to serialize |
-| Horizontal Circulation | hCirc | A list of corridor curves for cores that you would like to serialize |
-| Design Meshes | dMesh | A list of target meshes you would like to serialize with your core curves. i.e walls or hatches |
-| Smoke Area Mesh | sMesh | List of the meshes to place when the core is placed in a certain condition that requires a smoke area "RockSluis" in dutch |
-| Smoke Area Curves | sCrv | List of the curves to place when the core is placed in a certain condition that requires a smoke area "RockSluis" in dutch |
-| File Name | fName | The name for saving |
-| Add To DataBase | AddToDB | Add to the data base of cores so you can use it later in other projects<br>Your file name will be used as the core name |
-### Output
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| JSON | JSON | Geometry JSON |
