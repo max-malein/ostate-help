@@ -1,7 +1,7 @@
 
 | 01. Settings | 02. Pattern | 03. Building | 04. Layout | 05. Details | 06. Post Processing | 07. Utility |
 | --- | --- | --- | --- | --- | --- | --- |
-| [![](img/ApartmentSettings-Tower.png)](#-apartment-settings--tower) [![](img/BoundarySettings.png)](#-boundary-settings) [![](img/BoundarySettings-Corner.png)](#-boundary-settings--corner) [![](img/CoreInteriorSettings.png)](#-core-interior-settings) [![](img/CoreSettings.png)](#-core-settings) [![](img/CorridorSettings.png)](#-corridor-settings) [![](img/CoreSettings-Double.png)](#-core-settings--double) [![](img/FloorSettings.png)](#-floor-settings) [![](img/StructureSettings.png)](#-structure-settings) | [![](img/MakeDuplex.png)](#-make-duplex) [![](img/MakeHandmade.png)](#-make-handmade) [![](img/MakeLinear.png)](#-make-linear) [![](img/MakeTower.png)](#-maketower) [![](img/PatternLibrary.png)](#-pattern-library) [![](img/PatternSettings.png)](#-pattern-settings) | [![](img/MergeBuildings.png)](#-mergebuildings) [![](img/SolveBuildingAdjacency.png)](#-solve-building-adjacency) | [![](img/BalconyType.png)](#-balcony-type) [![](img/GenerateLayout.png)](#-generate-layout) [![](img/GrowOnCells.png)](#-grow-on-cells) [![](img/OneCellOneSpace.png)](#-one-cell-one-space) [![](img/SpaceType.png)](#-space-type) | [![](img/AddWindows.png)](#-add-windows) [![](img/AddWallsThickness.png)](#-add-walls-thickness) [![](img/WallIntersectionSettings.png)](#-wall-intersection-settings) [![](img/WallThicknessSettings.png)](#-wall-thickness-settings) | [![](img/ExportData.png)](#-export-data) [![](img/ExportHoneybee.png)](#-export-honeybee) [![](img/ExportIFC.png)](#-export-ifc) [![](img/AreaColoredRange.png)](#-area-colored-range) [![](img/ExportFloorplan.png)](#-export-floorplan) [![](img/ExportFloorplan-2D.png)](#-export-floorplan--2d) [![](img/FloorplanColorSettings.png)](#-floorplan-color-settings) [![](img/FloorplanTextSettings.png)](#-floorplan-text-settings) | [![](img/Arrange.png)](#-arrange) [![](img/OstateDefaults.png)](#-ostate-defaults) [![](img/Rename.png)](#-rename) [![](img/CreateStructuralLines.png)](#-create-structural-lines) [![](img/UFAEstimator.png)](#-ufa-estimator) [![](img/FloorplanValidator.png)](#-floorplan-validator) [![](img/FloorplanValidatorOstate.png)](#-floorplan-validator-ostate) |
+| [![](img/ApartmentSettings-Tower.png)](#-apartment-settings--tower) [![](img/BoundarySettings.png)](#-boundary-settings) [![](img/BoundarySettings-Corner.png)](#-boundary-settings--corner) [![](img/CoreInteriorSettings.png)](#-core-interior-settings) [![](img/CoreSettings.png)](#-core-settings) [![](img/CoreSettings-Double.png)](#-core-settings--double) [![](img/CorridorSettings.png)](#-corridor-settings) [![](img/FloorSettings.png)](#-floor-settings) [![](img/StructureSettings.png)](#-structure-settings) | [![](img/MakeDuplex.png)](#-make-duplex) [![](img/MakeHandmade.png)](#-make-handmade) [![](img/MakeLinear.png)](#-make-linear) [![](img/MakeTower.png)](#-maketower) [![](img/PatternLibrary.png)](#-pattern-library) [![](img/PatternSettings.png)](#-pattern-settings) | [![](img/MergeBuildings.png)](#-mergebuildings) [![](img/SolveBuildingAdjacency.png)](#-solve-building-adjacency) | [![](img/GenerateLayout.png)](#-generate-layout) [![](img/GrowOnCells.png)](#-grow-on-cells) [![](img/OneCellOneSpace.png)](#-one-cell-one-space) [![](img/BalconyType.png)](#-balcony-type) [![](img/SpaceType.png)](#-space-type) | [![](img/AddWallsThickness.png)](#-add-walls-thickness) [![](img/AddWindows.png)](#-add-windows) [![](img/WallIntersectionSettings.png)](#-wall-intersection-settings) [![](img/WallThicknessSettings.png)](#-wall-thickness-settings) | [![](img/ExportData.png)](#-export-data) [![](img/ExportFloorplan.png)](#-export-floorplan) [![](img/ExportFloorplan-2D.png)](#-export-floorplan--2d) [![](img/ExportHoneybee.png)](#-export-honeybee) [![](img/ExportIFC.png)](#-export-ifc) [![](img/AreaColoredRange.png)](#-area-colored-range) [![](img/FloorplanColorSettings.png)](#-floorplan-color-settings) [![](img/FloorplanTextSettings.png)](#-floorplan-text-settings) | [![](img/CreateStructuralLines.png)](#-create-structural-lines) [![](img/Rename.png)](#-rename) [![](img/UFAEstimator.png)](#-ufa-estimator) [![](img/OstateDefaults.png)](#-ostate-defaults) [![](img/FloorplanValidator.png)](#-floorplan-validator) [![](img/FloorplanValidatorOstate.png)](#-floorplan-validator-ostate) [![](img/Arrange.png)](#-arrange) |
 
 # 01. Settings
 ## ![](img/ApartmentSettings-Tower.png) Apartment Settings | Tower
@@ -102,26 +102,6 @@
 | ------ | ------ | ------ |
 | Core Settings | coSett | Settings for the core of the pattern. |
 
-## ![](img/CorridorSettings.png) Corridor Settings
-**Name:** Corridor Settings  
-**NickName:** Corridor  
-**Description:** Setting the corridor properties and dimensions for the pattern  
-
-### Input
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Corridor Width | Width | Width of the corridor.<br> if the corridor width is 0 it will be assigned the OstateDefaults value  => RegulationsCorridorWidth |
-| Corridor Extension | Cor Ext | Distance from the deadend of the corridor to the parallel facade. |
-| Core Shift | Cor Shift | Distance from the deadend of the corridor to the core. |
-| Gallery Walls? | Gallery? | If the corridor is gallery, should it have walls? (i.e. double skine facade.) |
-
-### Output
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| CorridorSettings | CoSett | Settings for the corridor of the pattern. |
-
 ## ![](img/CoreSettings-Double.png) Core Settings | Double
 **Name:** Core Settings | Double  
 **NickName:** Double Core  
@@ -144,6 +124,26 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | DoubleCoreSettings | doubSett | Settings for the double core of the pattern. |
+
+## ![](img/CorridorSettings.png) Corridor Settings
+**Name:** Corridor Settings  
+**NickName:** Corridor  
+**Description:** Setting the corridor properties and dimensions for the pattern  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Corridor Width | Width | Width of the corridor.<br> if the corridor width is 0 it will be assigned the OstateDefaults value  => RegulationsCorridorWidth |
+| Corridor Extension | Cor Ext | Distance from the deadend of the corridor to the parallel facade. |
+| Core Shift | Cor Shift | Distance from the deadend of the corridor to the core. |
+| Gallery Walls? | Gallery? | If the corridor is gallery, should it have walls? (i.e. double skine facade.) |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| CorridorSettings | CoSett | Settings for the corridor of the pattern. |
 
 ## ![](img/FloorSettings.png) Floor Settings
 **Name:** Floor Settings  
@@ -334,27 +334,6 @@
 | Buildings | Buildings | Building with contextual adjacency solved |
 
 # 04. Layout
-## ![](img/BalconyType.png) Balcony Type
-**Name:** Balcony Type  
-**NickName:** Balcony  
-**Description:** Balcony to add to the space type  
-
-### Input
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Type | T | Type Of the Balcony. Loggia/Interior or exterior balcony?<br>0 => Unset<br>1 => Exterior<br>2 => Interior |
-| Area | Area | Balcony Area |
-| Depth | Depth | Balcony Depth |
-| Length | Length | Balcony Length |
-| Position | Pos | Balcony Position.<br>0 => Start<br>1 => CornerOrStart<br>2 => Middle<br>3 => CornerOrMiddle<br>4 => End<br>5 => CornerOrEnd |
-
-### Output
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| SpaceType | Type | Space type after balcony options are added to it |
-
 ## ![](img/GenerateLayout.png) Generate Layout
 **Name:** Generate Layout  
 **NickName:** Layout  
@@ -424,6 +403,27 @@
 | ------ | ------ | ------ |
 | OneCellOneSpace | Algo | Layout generator algorithm. |
 
+## ![](img/BalconyType.png) Balcony Type
+**Name:** Balcony Type  
+**NickName:** Balcony  
+**Description:** Balcony to add to the space type  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Type | T | Type Of the Balcony. Loggia/Interior or exterior balcony?<br>0 => Unset<br>1 => Exterior<br>2 => Interior |
+| Area | Area | Balcony Area |
+| Depth | Depth | Balcony Depth |
+| Length | Length | Balcony Length |
+| Position | Pos | Balcony Position.<br>0 => Start<br>1 => CornerOrStart<br>2 => Middle<br>3 => CornerOrMiddle<br>4 => End<br>5 => CornerOrEnd |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| SpaceType | Type | Space type after balcony options are added to it |
+
 ## ![](img/SpaceType.png) Space Type
 **Name:** Space Type  
 **NickName:** SpaceType  
@@ -451,6 +451,25 @@
 | SpaceType | Type | Space type object |
 
 # 05. Details
+## ![](img/AddWallsThickness.png) Add Walls Thickness
+**Name:** Add Walls Thickness  
+**NickName:** AddWallsThickness  
+**Description:** Add/Generate walls on floors. This Component also Finds UFA (UsableFloorArea) Boundary and registers its areas to each space.  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Building | Building | Building to Generate walls for |
+| << Wall Thickness Settings | << Thickness | Settings for wall types and their thickness/dimensions |
+| << Wall Intersection Settings | << iSett | Intersection priority order for the walls. From Wall Intersection Settings. By default: LoadBearing >> Thickness >> Length |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Building | Builidng | Building presented |
+
 ## ![](img/AddWindows.png) Add Windows
 **Name:** Add Windows  
 **NickName:** AddWindows  
@@ -470,25 +489,6 @@
 | Name | NickName | Description |
 | ------ | ------ | ------ |
 | Building | Building | Building with windows generated on each space |
-
-## ![](img/AddWallsThickness.png) Add Walls Thickness
-**Name:** Add Walls Thickness  
-**NickName:** AddWallsThickness  
-**Description:** Add/Generate walls on floors. This Component also Finds UFA (UsableFloorArea) Boundary and registers its areas to each space.  
-
-### Input
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Building | Building | Building to Generate walls for |
-| << Wall Thickness Settings | << Thickness | Settings for wall types and their thickness/dimensions |
-| << Wall Intersection Settings | << iSett | Intersection priority order for the walls. From Wall Intersection Settings. By default: LoadBearing >> Thickness >> Length |
-
-### Output
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Building | Builidng | Building presented |
 
 ## ![](img/WallIntersectionSettings.png) Wall Intersection Settings
 **Name:** Wall Intersection Settings  
@@ -557,6 +557,53 @@
 | Processed data | Processed | Processed data of the variant. all Data are rounded according to the Norms and regulations advice (if it exist) |
 | Raw Data JSon | Raw Json | Serialized JSON that can be an input to the 'DesignScout Tools' to present on our Hub.OMRT.tech patform |
 
+## ![](img/ExportFloorplan.png) Export Floorplan
+**Name:** Export Floorplan  
+**NickName:** FPlan  
+**Description:** Get colored floorplan mesh  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Buildings | B | List of Buildings to export |
+| Render Text | Text | True to have text description rendered |
+| Extrude Spaces | Extrude | if true all the spaces will be extruded before being colored |
+| << Color Settings | << Color | Color preview settings |
+| << Text Settings | << Text | Text preview settings |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Preview mesh | Mesh | Mesh of the floors |
+| Extrusions Wireframes | Wireframes | if the extrusion parameter is selected then the extrusions of the spaces breps are returned here joined |
+| Text Data | Text | Text data to be exploded |
+
+## ![](img/ExportFloorplan-2D.png) Export Floorplan | 2D
+**Name:** Export Floorplan | 2D  
+**NickName:** PlotFP  
+**Description:** Orient floor layouts on the plot and assign colors to spaces  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Buildings | B | List of Buildings to export |
+| Render Text | Text | True to have text description rendered |
+| Plotting point | pt | Bottom left corner of plotted florplan. |
+| Padding | Padding | A minimum padding between the floors |
+| << Color Settings | << Color | Color preview settings |
+| << Text Settings | << Text | Text preview settings |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Preview mesh | Mesh | Mesh of the floors |
+| Vectors | Vec | List of Translation Vectors for each floor |
+| Text Data | Text | Text data to be exploded |
+
 ## ![](img/ExportHoneybee.png) Export Honeybee
 **Name:** Export Honeybee  
 **NickName:** To HB  
@@ -618,53 +665,6 @@
 | ------ | ------ | ------ |
 | Area Colored Range | Range | Area range with an assosiated color |
 
-## ![](img/ExportFloorplan.png) Export Floorplan
-**Name:** Export Floorplan  
-**NickName:** FPlan  
-**Description:** Get colored floorplan mesh  
-
-### Input
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Buildings | B | List of Buildings to export |
-| Render Text | Text | True to have text description rendered |
-| Extrude Spaces | Extrude | if true all the spaces will be extruded before being colored |
-| << Color Settings | << Color | Color preview settings |
-| << Text Settings | << Text | Text preview settings |
-
-### Output
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Preview mesh | Mesh | Mesh of the floors |
-| Extrusions Wireframes | Wireframes | if the extrusion parameter is selected then the extrusions of the spaces breps are returned here joined |
-| Text Data | Text | Text data to be exploded |
-
-## ![](img/ExportFloorplan-2D.png) Export Floorplan | 2D
-**Name:** Export Floorplan | 2D  
-**NickName:** PlotFP  
-**Description:** Orient floor layouts on the plot and assign colors to spaces  
-
-### Input
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Buildings | B | List of Buildings to export |
-| Render Text | Text | True to have text description rendered |
-| Plotting point | pt | Bottom left corner of plotted florplan. |
-| Padding | Padding | A minimum padding between the floors |
-| << Color Settings | << Color | Color preview settings |
-| << Text Settings | << Text | Text preview settings |
-
-### Output
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Preview mesh | Mesh | Mesh of the floors |
-| Vectors | Vec | List of Translation Vectors for each floor |
-| Text Data | Text | Text data to be exploded |
-
 ## ![](img/FloorplanColorSettings.png) Floorplan Color Settings
 **Name:** Floorplan Color Settings  
 **NickName:** FPColor  
@@ -708,63 +708,6 @@
 | FloorplanTextSettings | TextSettings | Additional text settings for the floorplan exporting components |
 
 # 07. Utility
-## ![](img/Arrange.png) Arrange
-**Name:** Arrange  
-**NickName:** Arrange  
-**Description:** Arrange geometry or ostate objects on a grid.  
-
-### Input
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Geometry | Geo | Rhino or ostate objects |
-| Base Point | Pt | Base point for the grid |
-| Padding | Padding | Minimum distance between geometries |
-
-### Output
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Geometry | Geo | Translated input geometry |
-| TranslationVectors | Vec | Translation vector for each valid geometry |
-
-## ![](img/OstateDefaults.png) Ostate Defaults
-**Name:** Ostate Defaults  
-**NickName:** ODefaults  
-**Description:** Default values that are used in Ostate's backend and can be overriden.  
-
-### Input
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Defaults Type | Type | Type of default values to access.<br>0 => Building<br>1 => Constants<br>2 => FloorplanValidator |
-| Default Names | Names | list of names belongs to the values you want to modify/override |
-| Default New Values | newValue | value to replace the default value indicated by the list of names |
-
-### Output
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Ostate Defaults | ODefaults | All Ostate defaults within the specified type. |
-
-## ![](img/Rename.png) Rename
-**Name:** Rename  
-**NickName:** Rename  
-**Description:** Rename an ostate object.  
-
-### Input
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Object | Obj | Ostate object to rename |
-| Name | Name | New name of the object |
-
-### Output
-
-| Name | NickName | Description |
-| ------ | ------ | ------ |
-| Object | Obj | Renamed object |
-
 ## ![](img/CreateStructuralLines.png) Create Structural Lines
 **Name:** Create Structural Lines  
 **NickName:** Structural Lines  
@@ -790,6 +733,24 @@
 | Points | Pts | Points subdividing the curve |
 | Adjusted Curve | Adj Curve | Curve Adjusted based on the tolerance. |
 
+## ![](img/Rename.png) Rename
+**Name:** Rename  
+**NickName:** Rename  
+**Description:** Rename an ostate object.  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Object | Obj | Ostate object to rename |
+| Name | Name | New name of the object |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Object | Obj | Renamed object |
+
 ## ![](img/UFAEstimator.png) UFA Estimator
 **Name:** UFA Estimator  
 **NickName:** UFA  
@@ -813,6 +774,25 @@
 | Depth | depth | Depth of the space.<br>This is the Gross depth. From the facade external edge to the corridor edge.<br>Don't think of any walls thickness here. |
 | Span | span | Span of the space.<br>This is the Gross span. From the midline of the interior wall to the other side's midline interior wall.<br>Don't think of any walls thickness here. |
 | UFA | UFA | UFA area of the space.<br>This is the net UFA Area. UFA = Usable Floor Area of the space |
+
+## ![](img/OstateDefaults.png) Ostate Defaults
+**Name:** Ostate Defaults  
+**NickName:** ODefaults  
+**Description:** Default values that are used in Ostate's backend and can be overriden.  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Defaults Type | Type | Type of default values to access.<br>0 => Building<br>1 => Constants<br>2 => FloorplanValidator |
+| Default Names | Names | list of names belongs to the values you want to modify/override |
+| Default New Values | newValue | value to replace the default value indicated by the list of names |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Ostate Defaults | ODefaults | All Ostate defaults within the specified type. |
 
 ## ![](img/FloorplanValidator.png) Floorplan Validator
 **Name:** Floorplan Validator  
@@ -854,4 +834,24 @@
 | ------ | ------ | ------ |
 | Building Results | BuildingRes | list of floor Results object for all the building's floors.<br>This contains the apartments and corridor result objects as well<br>use the explode component from the ostate utilities to get all the data |
 | Floors Results | FloorsRes | list of floor Results object for all separate inputed floors.<br>This contains the apartments and corridor result objects as well<br>use the explode component from the ostate utilities to get all the data |
+
+## ![](img/Arrange.png) Arrange
+**Name:** Arrange  
+**NickName:** Arrange  
+**Description:** Arrange geometry or ostate objects on a grid.  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Geometry | Geo | Rhino or ostate objects |
+| Base Point | Pt | Base point for the grid |
+| Padding | Padding | Minimum distance between geometries |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Geometry | Geo | Translated input geometry |
+| TranslationVectors | Vec | Translation vector for each valid geometry |
 
