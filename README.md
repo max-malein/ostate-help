@@ -1,7 +1,7 @@
 
-| 01. Settings | 02. Pattern | 03. Building | 04. Layout | 05. Details | 06. Post Processing | 07. Utility |
-| --- | --- | --- | --- | --- | --- | --- |
-| [![](img/ApartmentSettings-Tower.png)](#-apartment-settings--tower) [![](img/BoundarySettings.png)](#-boundary-settings) [![](img/BoundarySettings-Corner.png)](#-boundary-settings--corner) [![](img/CoreInteriorSettings.png)](#-core-interior-settings) [![](img/CoreSettings.png)](#-core-settings) [![](img/CoreSettings-Double.png)](#-core-settings--double) [![](img/CorridorSettings.png)](#-corridor-settings) [![](img/FloorSettings.png)](#-floor-settings) [![](img/StructureSettings.png)](#-structure-settings) | [![](img/MakeDuplex.png)](#-make-duplex) [![](img/MakeHandmade.png)](#-make-handmade) [![](img/MakeLinear.png)](#-make-linear) [![](img/MakeTower.png)](#-maketower) [![](img/PatternLibrary.png)](#-pattern-library) [![](img/PatternSettings.png)](#-pattern-settings) | [![](img/MergeBuildings.png)](#-mergebuildings) [![](img/SolveBuildingAdjacency.png)](#-solve-building-adjacency) | [![](img/GenerateLayout.png)](#-generate-layout) [![](img/GrowOnCells.png)](#-grow-on-cells) [![](img/OneCellOneSpace.png)](#-one-cell-one-space) [![](img/BalconyType.png)](#-balcony-type) [![](img/SpaceType.png)](#-space-type) | [![](img/AddWallsThickness.png)](#-add-walls-thickness) [![](img/AddWindows.png)](#-add-windows) [![](img/WallIntersectionSettings.png)](#-wall-intersection-settings) [![](img/WallThicknessSettings.png)](#-wall-thickness-settings) | [![](img/ExportData.png)](#-export-data) [![](img/ExportFloorplan.png)](#-export-floorplan) [![](img/ExportFloorplan-2D.png)](#-export-floorplan--2d) [![](img/ExportHoneybee.png)](#-export-honeybee) [![](img/ExportIFC.png)](#-export-ifc) [![](img/AreaColoredRange.png)](#-area-colored-range) [![](img/FloorplanColorSettings.png)](#-floorplan-color-settings) [![](img/FloorplanTextSettings.png)](#-floorplan-text-settings) | [![](img/CreateStructuralLines.png)](#-create-structural-lines) [![](img/Rename.png)](#-rename) [![](img/UFAEstimator.png)](#-ufa-estimator) [![](img/OstateDefaults.png)](#-ostate-defaults) [![](img/FloorplanValidator.png)](#-floorplan-validator) [![](img/FloorplanValidatorOstate.png)](#-floorplan-validator-ostate) [![](img/Arrange.png)](#-arrange) |
+| 01. Settings | 02. Pattern | 03. Building | 04. Layout | 05. Details | 06. Post Processing | 07. Utility | Parking |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [![](img/ApartmentSettings-Tower.png)](#-apartment-settings--tower) [![](img/BoundarySettings.png)](#-boundary-settings) [![](img/BoundarySettings-Corner.png)](#-boundary-settings--corner) [![](img/CoreInteriorSettings.png)](#-core-interior-settings) [![](img/CoreSettings.png)](#-core-settings) [![](img/CoreSettings-Double.png)](#-core-settings--double) [![](img/CorridorSettings.png)](#-corridor-settings) [![](img/FloorSettings.png)](#-floor-settings) [![](img/StructureSettings.png)](#-structure-settings) | [![](img/MakeDuplex.png)](#-make-duplex) [![](img/MakeHandmade.png)](#-make-handmade) [![](img/MakeLinear.png)](#-make-linear) [![](img/MakeTower.png)](#-maketower) [![](img/PatternLibrary.png)](#-pattern-library) [![](img/PatternSettings.png)](#-pattern-settings) | [![](img/MergeBuildings.png)](#-mergebuildings) [![](img/SolveBuildingAdjacency.png)](#-solve-building-adjacency) | [![](img/GenerateLayout.png)](#-generate-layout) [![](img/GrowOnCells.png)](#-grow-on-cells) [![](img/OneCellOneSpace.png)](#-one-cell-one-space) [![](img/BalconyType.png)](#-balcony-type) [![](img/SpaceType.png)](#-space-type) | [![](img/AddWallsThickness.png)](#-add-walls-thickness) [![](img/AddWindows.png)](#-add-windows) [![](img/WallIntersectionSettings.png)](#-wall-intersection-settings) [![](img/WallThicknessSettings.png)](#-wall-thickness-settings) | [![](img/ExportData.png)](#-export-data) [![](img/ExportFloorplan.png)](#-export-floorplan) [![](img/ExportFloorplan-2D.png)](#-export-floorplan--2d) [![](img/ExportHoneybee.png)](#-export-honeybee) [![](img/ExportIFC.png)](#-export-ifc) [![](img/AreaColoredRange.png)](#-area-colored-range) [![](img/FloorplanColorSettings.png)](#-floorplan-color-settings) [![](img/FloorplanTextSettings.png)](#-floorplan-text-settings) | [![](img/CreateStructuralLines.png)](#-create-structural-lines) [![](img/Rename.png)](#-rename) [![](img/UFAEstimator.png)](#-ufa-estimator) [![](img/OstateDefaults.png)](#-ostate-defaults) [![](img/FloorplanValidator.png)](#-floorplan-validator) [![](img/FloorplanValidatorOstate.png)](#-floorplan-validator-ostate) [![](img/Arrange.png)](#-arrange) | [![](img/MakeParking.png)](#-make-parking) [![](img/MakeParkingZone.png)](#-make-parking-zone) [![](img/DimensionsFromNorms.png)](#-dimensions-from-norms) [![](img/MakeRoad.png)](#-make-road) [![](img/ParkingSpotSettings.png)](#-parking-spot-settings) [![](img/RoadSettings.png)](#-road-settings) [![](img/AxisTrimmerFromLine.png)](#-axis-trimmer-from-line) [![](img/AxisTrimmerFromRoad.png)](#-axis-trimmer-from-road) [![](img/Makecolumns.png)](#-make-columns) [![](img/PrimaryAxis.png)](#-primary-axis) [![](img/SecondaryAxis.png)](#-secondary-axis) [![](img/StructureAxisSettings.png)](#-structure-axis-settings) |
 
 # 01. Settings
 ## ![](img/ApartmentSettings-Tower.png) Apartment Settings | Tower
@@ -855,3 +855,234 @@
 | Geometry | Geo | Translated input geometry |
 | TranslationVectors | Vec | Translation vector for each valid geometry |
 
+# Parking
+## ![](img/MakeParking.png) Make Parking
+**Name:** Make Parking  
+**NickName:** Parking  
+**Description:** Compute the geometry of the parking zones.  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| << ParkingZones | << Zones | Compiled parking zones |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Road geometry | Roads | Road geometry |
+| Spot geometry | Spots | Spot geometry |
+| Obstacles | Obst | Obstacles |
+| Boundaries | Bnds | Boundaries |
+
+## ![](img/MakeParkingZone.png) Make Parking Zone
+**Name:** Make Parking Zone  
+**NickName:** Parking Zone  
+**Description:** Compiles the roads, boundary and obstacles into a single parking zone.  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| << Roads | << Roads | Ostate parking roads |
+| Boundary | Bnd | Parking boundary. The parking spots will be generated inside only. |
+| Obstacles | Obst | Curves for parking spots to avoid. |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Parking | P | Generated parking |
+
+## ![](img/DimensionsFromNorms.png) Dimensions From Norms
+**Name:** Dimensions From Norms  
+**NickName:** NormsDim  
+**Description:** Get Dimensions from norms  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Parking type | pType | Type of parking:<br>0 => Public<br>1 => Private<br>2 => Garage |
+| Spot angle | angle | Angle of parking spots:<br>30 => Deg30<br>45 => Deg45<br>60 => Deg60<br>65 => Deg65<br>70 => Deg70<br>80 => Deg80<br>90 => Deg90 |
+| Compactness | comp | Compactness of the spots, the lower the number the narrower the parking spots. Depending on norm and angle - between 0 and 3, 4, or 5. If the number will be larger than maximum - the widest spot will be selected. |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Values | V | Values |
+| RoadType | R | Dimensions of the road |
+| SpotType | S | Dimensions of the spot |
+
+## ![](img/MakeRoad.png) Make Road
+**Name:** Make Road  
+**NickName:** Road  
+**Description:** Create an Ostate parking road  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Curves | Crvs | Road midlines, only straight segments! |
+| << Road Settings | << RoadSet | Road settings |
+| << Left Spot Settings | << LSpotSet | Parking spot settings |
+| << Right Spot Settings | << RSpotSet | Parking spot settings |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Roads | R | Generated roads |
+
+## ![](img/ParkingSpotSettings.png) Parking Spot Settings
+**Name:** Parking Spot Settings  
+**NickName:** Spot Set  
+**Description:** Settings for the parking spot  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Width | Width | Width of the parking spot |
+| Depth | Depth | Depth of the parking spot |
+| Angle | Angle | Angle of the parking spot (in degrees) |
+| Priority | Prior | Intersection priority for the parking spots.<br>Parking spots will be generate first along the road with the highest priority.<br>In case of equal priority, the longest edge will be chosen. |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Parking Spot Settings | Spot Settings | Settings for the parking spots |
+
+## ![](img/RoadSettings.png) Road Settings
+**Name:** Road Settings  
+**NickName:** Road Set  
+**Description:** Settings for the roads  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Width | W | Width of the road |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Road Settings | RoadSet | Settings for the road |
+
+## ![](img/AxisTrimmerFromLine.png) Axis Trimmer From Line
+**Name:** Axis Trimmer From Line  
+**NickName:** Trimmer (Line)  
+**Description:** Create an axis trimmer from a line  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Line | L | Base line |
+| Thickness | Thickness of the area where the columns shouldn't be gengerated | Thickness |
+| Finite | Fin | If true, will be restricted to the line length |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Structural Guide | Guide | A guide for the structural axes |
+
+## ![](img/AxisTrimmerFromRoad.png) Axis Trimmer From Road
+**Name:** Axis Trimmer From Road  
+**NickName:** Trimmer (Road)  
+**Description:** Create an axis trimmer from the road  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| << Road | << Road | Road to convert into structural guide |
+| Finite | Fin | If false, each road will be infintely extended |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Structural Guide | Guide | A guide for the structural axis |
+
+## ![](img/Makecolumns.png) Make columns
+**Name:** Make columns  
+**NickName:** Columns  
+**Description:** Creates columns from axes  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| << Axes | << Axes | Structural axes |
+| Axis Trimmers | Trimmers | Primary axis trimmers.<br>The primary axes will have the interior area of the trimmers removed. |
+| Boundary | Bnd | Parking boundary |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Columns | Col | Generated columns |
+
+## ![](img/PrimaryAxis.png) Primary Axis
+**Name:** Primary Axis  
+**NickName:** Axis1  
+**Description:** Axis on which the columns will be generated  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Line | L | Line |
+| << Axis Settings | << Set | Structure Axis settings |
+| Geometry On Start | StartGeo | If false, the first column will be skipped |
+| Geometry On End | EndGeo | If true, the last column will be skipped |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Primary Axis | Axis | An axis along which the columns will be generated. |
+
+## ![](img/SecondaryAxis.png) Secondary Axis
+**Name:** Secondary Axis  
+**NickName:** Axis2  
+**Description:** Secondary axis - column will be created at the intersection of primary and secondary axis.  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Line | L | Base line |
+| Finite | Fin | If true, will be restricted to the line length |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Secondary Axis | Axis | Secondary axis - column will be created at the intersection of primary and secondary axis. |
+
+## ![](img/StructureAxisSettings.png) Structure Axis Settings
+**Name:** Structure Axis Settings  
+**NickName:** Axis Set  
+**Description:** Column settings for the primary axis.  
+
+### Input
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Width | w | Width of the columns |
+| Depth | D | Depth of the columns |
+| MaxSpan | S | Max structural span between the columns. Put 0 for infinite. |
+| Offset | O | Offset from the road |
+
+### Output
+
+| Name | NickName | Description |
+| ------ | ------ | ------ |
+| Axis Settings | Set | Settings for the structural axis |
